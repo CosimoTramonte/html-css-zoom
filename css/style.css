@@ -1,5 +1,94 @@
+/*GENERAL*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*MENU-TOP*/
+
+.menu-top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+
+.menu-top button{
+    background-color: #4A4A4A;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.menu-top button:hover{
+    cursor: pointer;
+}
+
+/*MAIN*/
+
+main{
+    background-color: aqua;
+    height: calc(100vh - 130px);
+    overflow: auto;
+}
+
+
+/*ACTION-BAR*/
+
+.action-bar{
+    background-color: #222222;
+    height: 80px;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    display: inline-block;
+}
+
+.mike, .video{
+    display: inline-block;
+}
+
+.icon button span{
+    display: block;
+}
+
+.icon button{
+    color: white;
+    background-color:  #222222 ;
+    height: 100%;
+    border: none;
+    padding: 8px;
+}
+
+.icon button:hover{
+    cursor: pointer;
+}
+
+.icon button:first-child .fa-solid{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.fa-angle-up{
+    color: white;
+}
+
+.end-meeting button{
+    height: 100%;
+    color: red;
+    background-color: #4A4A4A;
+    padding: 0 10px;
+    border: none;
+}
+
+.end-meeting button:hover{
+    cursor: pointer;
+    background-color: #a3a3a3;
 }
